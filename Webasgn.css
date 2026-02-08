@@ -1,0 +1,46 @@
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+    padding: 0.5rem;
+}
+.toggler-icon {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-toggler[aria-expanded="true"] .top-bar {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+.navbar-toggler[aria-expanded="true"] .middle-bar {
+    opacity: 0;
+}
+.navbar-toggler[aria-expanded="true"] .bottom-bar {
+    transform: rotate(-45deg) translate(6px,-6px);
+}
+#heroimg{
+    position: absolute;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    padding: 17rem 0rem 0rem 0rem;
+    font-family: sans-serif;
+    margin-top: 0px;
+    width: 100%;
+    height: 42rem;
+}
+#crd{
+    border-top: 3px solid rgb(84, 140, 245);
+    border-right: 3px solid skyblue ;
+    border-bottom: 2px solid rgb(84, 150, 226);
+    border-left: 3px solid skyblue;
+    box-shadow: 0px 5px 7px 10px whitesmoke;
+}
+#shrp:hover{
+    border-top: 3px solid rgb(84, 140, 245);
+    border-right: 3px solid skyblue ;
+    border-bottom: 2px solid rgb(84, 150, 226);
+    border-left: 3px solid skyblue;
+    box-shadow: 0px 5px 7px 10px whitesmoke;
+}
